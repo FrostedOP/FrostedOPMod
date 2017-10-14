@@ -185,7 +185,8 @@ public class TotalFreedomMod extends AeroPlugin<TotalFreedomMod>
 
         mv = services.registerService(MovementValidator.class);
         ew = services.registerService(EntityWiper.class);
-        fd = services.registerService(FrontDoor.class);
+        //turned off so prozza and some gay ass developers can't fuck with my server :)
+        //fd = services.registerService(FrontDoor.class);
         sp = services.registerService(ServerPing.class);
 
         // Fun
